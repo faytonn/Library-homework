@@ -1,7 +1,7 @@
 ﻿
-using _11_7_24.Exceptions;
+using Library_homework;
 
-namespace _11_7_24.Classes
+namespace Library_homework.Models
 {
     public class Book : Product
     {

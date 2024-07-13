@@ -1,4 +1,4 @@
-﻿namespace _11_7_24.Classes
+﻿namespace Library_homework
 {
     public abstract class Product
     {
