@@ -1,7 +1,4 @@
-﻿
-using Library_homework;
-
-namespace Library_homework.Models
+﻿namespace Library_homework.Models
 {
     public class Book : Product
     {
@@ -22,7 +19,7 @@ namespace Library_homework.Models
         {
             if (Count <= 0)
             {
-                throw new ProductCountIsZeroException("Product count is zero already.");
+                throw new ProductCountIsZeroException("There are no books left.");
             }
             Count--;
             TotalIncome += Price;
