@@ -46,7 +46,7 @@ public class Library<T>
         {
             if (book.Id == id)
             {
-                Console.WriteLine(book);
+                book.ShowInfo();
                 return;
             }
         }

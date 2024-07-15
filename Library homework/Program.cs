@@ -1,6 +1,5 @@
 ﻿using Library_homework;
 using Library_homework.Models;
-using System.Transactions;
 
 Library<Book> library = new Library<Book>(100);
 
@@ -60,7 +59,7 @@ static void AddingBook(Library<Book> library)
     Console.Write("Page count: ");
     int pageCount = int.Parse(Console.ReadLine());
 
-    Book book = new Book(bookName, bookPrice, pageCount, authorName, pageCount);
+    Book book = new Book(bookName, bookPrice, bookCount, authorName, pageCount);
 
     try
     {
